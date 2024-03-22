@@ -17,14 +17,9 @@ public class no2693 {
 			}
 		}
 
-		//Arrays.sort()로 배열의 숫자들을 오름차순으로 정렬
 		for (int i=0; i<caseNo; i++) {
-			Arrays.sort(intArray[i]);
-		}
-
-		//반복문으로 8번째 숫자(3번째로 큰 값)를 출력
-		for (int i=0; i<caseNo; i++) {
-			System.out.print(intArray[i][7] + "\n");
+			Arrays.sort(intArray[i]);			//Arrays.sort()로 배열의 숫자들을 오름차순으로 정렬
+			System.out.print(intArray[i][7] + "\n");	//8번째 숫자(3번째로 큰 값)를 출력
 		}
 	}
 
